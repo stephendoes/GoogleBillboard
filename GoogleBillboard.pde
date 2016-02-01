@@ -9,11 +9,11 @@ ppublic void draw()
 {   
 	for (int i = 2; x < e.length(); i++)
 	{
-	String digits = e.substring(i,i+10);
-	double dNum = Double.parseDouble(digits);
+	String digit = e.substring(i,i+10);
+	double dNum = Double.parseDouble(digit);
 	if(isPrime(dNum) == true )
 		{
-			System.out.println(digits);
+			System.out.println(digit);
 			break;
 		}
 
