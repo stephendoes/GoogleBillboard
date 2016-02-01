@@ -7,9 +7,9 @@ public void setup()
 }  
 ppublic void draw()  
 {   
-	for (int x = 2; x < e.length(); x++)
+	for (int i = 2; x < e.length(); i++)
 	{
-	String digits = e.substring(x,x+10);
+	String digits = e.substring(i,i+10);
 	double dNum = Double.parseDouble(digits);
 	if(isPrime(dNum) == true )
 		{
